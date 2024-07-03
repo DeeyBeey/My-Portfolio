@@ -1,22 +1,54 @@
 .about-section {
-    padding: 20px;
-    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    text-align:left;
 }
 
 .about-content {
-    display: flex; /* Use flexbox layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1500px;
 }
 
-.text {
-    flex: 1; /* Take up remaining space */
-    padding-right: 20px; /* Add some spacing between text and image */
+.about-content .text, .about-content .image {
+    flex: 1;
+    margin: 20px;
 }
 
-.image {
-    flex: 1; /* Take up remaining space */
+.about-content .text {
+    max-width: 600px;
 }
 
-.image img {
-    max-width: 100%; /* Ensure image doesn't exceed container width */
-    height: auto; /* Maintain aspect ratio */
+.about-content .image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image{
+    padding-left: 100px;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@keyframes switchText {
+    0% { opacity: 0; transform: translateY(-10px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(10px); }
+}
+
+.switching-text {
+    display: inline-block;
+    animation: switchText 2s infinite;
 }

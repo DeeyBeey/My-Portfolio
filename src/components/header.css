@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,11 +42,13 @@
 .navigation-link a {
     text-decoration: none;
     color: #fff;
+    transition: transform 0.5s ease-in-out;
 }
 
 .navigation-link:hover {
     background-color:rgb(105, 105, 105);
     border-radius: 5px;
+    transform: scale(1.2);
 }
 
 #typed-text {
