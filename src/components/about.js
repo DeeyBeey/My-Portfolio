@@ -12,7 +12,7 @@ const AboutSection = () => {
         return () => clearInterval(interval);
     }, []);
     return (
-        <div id="about-me" className="about-section">
+        <div id="about" className="about-section">
             <div className="about-content">
                 <div className="text">
                     <h2>Who is <span className="switching-text">{name}?</span></h2>

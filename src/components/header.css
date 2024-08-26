@@ -10,6 +10,10 @@ html {
     color: #fff;
     border-radius: 0 0 3px 3px;
     height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .my-name {
