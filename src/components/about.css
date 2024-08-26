@@ -33,7 +33,9 @@
 }
 
 .image{
-    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-content h2 {
@@ -54,14 +56,14 @@
 
 .switching-text {
     display: inline-block;
-    animation: switchText 2s infinite;
+    animation: switchText 3s infinite;
 }
 
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #007bff;
+    background-color: rgb(35, 35, 35);
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -69,7 +71,7 @@
 }
 
 .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #4d4d4d;;
 }
 
 .witty-line {

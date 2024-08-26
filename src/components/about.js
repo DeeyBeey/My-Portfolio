@@ -7,7 +7,7 @@ const AboutSection = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setName(prevName => prevName === 'Dhruv' ? 'DeeyBeey' : 'Dhruv');
-        }, 2000)
+        }, 3000)
 
         return () => clearInterval(interval);
     }, []);

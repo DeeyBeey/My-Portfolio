@@ -29,7 +29,7 @@ const Header = () => {
             </div>
                 <div className="navigation-links">
                     <div className="navigation-link"><a href="#about">About</a></div>
-                    <div className="navigation-link"><a href="#skills">Skills</a></div>
+                    <div className="navigation-link"><a href="#experience">Experience</a></div>
                     <div className="navigation-link"><a href="#projects">Projects</a></div>
                     <div className="navigation-link"><a href="#contact">Contact</a></div>
                 </div>
