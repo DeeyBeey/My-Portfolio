@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer id="footer">
             <h2>Thank you!</h2>
-            <p>Thank you for checking out my portfolio website! If you have any suggestions or would like to connect, feel free to reach out.</p>
+            <p className="thank-you">Thank you for checking out my portfolio website! If you have any suggestions or would like to connect, feel free to reach out.</p>
             <div className="contact-buttons">
                 <a href="mailto:belai.d@northeastern.edu" className="contact-button" aria-label="Email">
                     <FaEnvelope /> Email
@@ -21,6 +21,7 @@ const Footer = () => {
                     <FaSteam /> Steam
                 </a>
             </div>
+            <p className="footer-note">This project was made with ❤️ using React</p>
         </footer>
     );
 }

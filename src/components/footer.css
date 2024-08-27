@@ -1,5 +1,5 @@
 #footer {
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(35, 35, 35);
     color: #fff;
     text-align: center;
@@ -10,7 +10,7 @@
     margin-bottom: 10px;
 }
 
-#footer p {
+.thank-you {
     font-size: 1rem;
     margin-bottom: 20px;
 }
@@ -39,4 +39,9 @@
 
 .contact-button svg {
     margin-right: 8px;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #ccc;
 }

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { FaGithub } from "react-icons/fa";
 import './projects.css';
 
 const projects = [
@@ -11,7 +12,7 @@ const projects = [
 
     {
         title: "Project Roofs",
-        description: "A CLI-based system for managing shelter operations, including residents, volunteers, and donations. Utilizes SQL and stored procedures for efficient data handling and visualization of key statistics.",
+        description: "A CLI-based system for managing shelter operations, including residents, volunteers, and donations, utilizing SQL and stored procedures for efficient data handling and visualization of key statistics.",
         techStack: ["Python", "SQL", "CLI", "Matplotlib", "Pandas"],
         githubLink: "https://github.com/DeeyBeey/Project-Roofs-Shelter-Management-System",
     },
@@ -49,7 +50,10 @@ const ProjectSection = () => {
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                         <p><strong>Tech Stack:</strong> {project.techStack.join(', ')}</p>
-                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <FaGithub />
+                            <span>GitHub</span>
+                        </a>
                     </div>
                 ))}
             </div>

@@ -5,6 +5,7 @@ body {
 .about-section {
     padding-top: 80px;
     padding-left: 50px;
+    padding-right: 50px;
     background-color: #f9f9f9;
     text-align: left;
 }
@@ -95,4 +96,24 @@ body {
     font-size: 1rem;
     color: #555;
     font-style: italic;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .about-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-content .text,
+    .about-content .image {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content .image img {
+        width: 150px;
+        height: 150px;
+    }
 }

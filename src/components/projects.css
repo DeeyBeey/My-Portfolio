@@ -2,6 +2,7 @@
     padding: 20px;
     background-color: #f7f7f7;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 #projects h2 {
@@ -41,6 +42,7 @@
 .project-card p {
     color: #666;
     margin: 10px 0;
+    text-align: justify;
 }
 
 .project-card a {
@@ -56,4 +58,12 @@
 
 .project-card a:hover {
     background-color: #4d4d4d;
+}
+
+.project-card a svg {
+    margin-right: 8px;
+}
+
+.project-card a span {
+    display: inline-block;
 }
