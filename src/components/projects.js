@@ -39,7 +39,7 @@ const ProjectSection = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-    
+
     return (
         <section id="projects">
             <h2>Projects in Action</h2>

@@ -8,11 +8,12 @@ body {
     background-color: #f0f0f0;
 }
 
-.role-date{
+.role-date {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .experience-item {
     margin: 20px;
 }
@@ -20,6 +21,7 @@ body {
 .experience-item h2 {
     font-size: 2rem;
 }
+
 .experience-item h3 {
     font-size: 1.5rem;
     margin: 0;

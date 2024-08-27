@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="contact-buttons">
                 <a href="mailto:belai.d@northeastern.edu" className="contact-button" aria-label="Email">
                     <FaEnvelope /> Email
-                </a> 
+                </a>
                 <a href="https://www.linkedin.com/in/dhruv-belai/" target="_blank" rel="noopener noreferrer" className="contact-button" aria-label="LinkedIn">
                     <FaLinkedin /> LinkedIn
                 </a>

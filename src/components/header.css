@@ -50,7 +50,7 @@ html {
 }
 
 .navigation-link:hover {
-    background-color:rgb(105, 105, 105);
+    background-color: rgb(105, 105, 105);
     border-radius: 5px;
     transform: scale(1.2);
 }
@@ -66,15 +66,19 @@ html {
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
 }
 
 @keyframes blink-caret {
-    from, to {
+
+    from,
+    to {
         border-color: transparent;
     }
+
     50% {
         border-color: #f9f9f9;
     }

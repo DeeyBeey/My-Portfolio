@@ -6,7 +6,7 @@ body {
     padding-top: 80px;
     padding-left: 50px;
     background-color: #f9f9f9;
-    text-align:left;
+    text-align: left;
 }
 
 .about-content {
@@ -16,7 +16,8 @@ body {
     max-width: 1500px;
 }
 
-.about-content .text, .about-content .image {
+.about-content .text,
+.about-content .image {
     flex: 1;
     margin: 20px;
 }
@@ -36,7 +37,7 @@ body {
     object-fit: cover;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,9 +54,20 @@ body {
 }
 
 @keyframes switchText {
-    0% { opacity: 0; transform: translateY(-10px); }
-    50% { opacity: 1; transform: translateY(0); }
-    100% { opacity: 0; transform: translateY(10px); }
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
 }
 
 .switching-text {
