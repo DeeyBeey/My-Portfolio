@@ -1,0 +1,12 @@
+#beyond-work {
+    padding: 20px;
+    padding-left: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#beyond-work p {
+    margin: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
