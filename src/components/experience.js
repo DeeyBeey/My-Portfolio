@@ -26,14 +26,14 @@ const ExperienceSection = () => {
                 </div>
                 <h4>Nibodh Educare</h4>
                 <ul>
-                    <li>Led comprehensive data processing, and analytical modelling, transforming raw data into structured formats using 
-                    Python's NumPy library, identifying key insights and presented findings resulting in a 10% enhancement in KPIs. </li>
-                    <li>Leveraged Microsoft Azure cloud services to optimize data storage and ELT data pipelines, resulting in a 30% 
-                    reduction in infrastructure costs while maintaining high scalability and reliability for the data analytics platform. </li>
-                    <li>Designed dynamic dashboards in Tableau, using Git for version control, to effectively communicate key trends, 
-                    facilitating data-driven decision-making and driving measurable improvements in business performance. </li>
-                    <li>Communicated findings and recommendations to stakeholders in a clear and concise manner, fostering understanding 
-                    and enabling informed decision-making processes across departments within a collaborative Scrum team environment. </li>
+                    <li>Leveraged HTML, CSS, and JavaScript (MongoDB, Express, React, Node.js) to develop a web application portal, 
+                    integrating front-end and back-end components into the live code of the website, implementing OOD/OOP principles.</li>
+                    <li>Implemented AWS cloud and microservices architecture to optimize data retrieval speeds and develop REST APIs, 
+                    resulting in a 30% increase in system responsiveness, enhancing data analytics for informed decision-making.</li>
+                    <li>Championed agile development methodologies and employed Git for version control, ensuring efficient collaboration 
+                    and project management, including testing using Cypress and Jest, alongside code maintenance.</li>
+                    <li>Facilitated open communication between stakeholders and the development team, ensuring smooth deployment while 
+                    managing expectations and garnering positive user feedback through collaborative problem-solving.</li>
                 </ul>
             </div>
         </section>
