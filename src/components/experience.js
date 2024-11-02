@@ -21,7 +21,7 @@ const ExperienceSection = () => {
 
             <div className="experience-item">
                 <div className="role-date">
-                    <h3>Data Analyst Intern</h3>
+                    <h3>Software Engineer Intern</h3>
                     <p>May 2019 - June 2019</p>
                 </div>
                 <h4>Nibodh Educare</h4>
