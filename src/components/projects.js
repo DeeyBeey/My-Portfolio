@@ -21,6 +21,12 @@ const projects = [
         description: "Developed a distributed key-value store using TCP and UDP for communication, incorporating RPC (RMI) for remote interactions, and implementing 2PC and Paxos algorithms to ensure data consistency and fault tolerance.",
         techStack: ["Java", "TCP", "UDP", "RMI", "Socket Programming"],
         githubLink: "https://github.com/DeeyBeey",
+    },
+    {
+        title: "NBA Game Outcome Prediction Using Neural Networks",
+        description: "Designed a PyTorch-based model to predict NBA outcomes with 65% accuracy, utilizing Recurrent and Fully Connected Networks, processing 25 years of data with SQL, and optimizing performance through hyperparameter tuning and cross-validation.",
+        techStack: ["Python", "PyTorch", "SQL", "Scikit-learn", "Matplotlib"],
+        githubLink: "https://github.com/DeeyBeey",
     }
 ]
 
