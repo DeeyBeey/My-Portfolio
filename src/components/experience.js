@@ -15,6 +15,7 @@ const ExperienceSection = () => {
                 <h4>Northeastern University</h4>
                 <ul>
                     <li>Guided students in data cleaning, analysis, and visualization using Python (Pandas, NumPy) for coursework projects. </li>
+                    <li>Introduced data preprocessing, feature engineering, and model evaluation best practices to improve project outcomes. </li>
                     <li>Assessed machine learning and statistical models, giving feedback to strengthen data-driven problem-solving skills. </li>
                 </ul>
             </div>
