@@ -9,32 +9,46 @@ const ExperienceSection = () => {
 
             <div className="experience-item">
                 <div className="role-date">
-                    <h3>Teaching Assistant | DS 3000: Foundations of Data Science</h3>
-                    <p>September 2024 - Present</p>
+                    <h3>Lead Teaching Assistant | DS 3000: Foundations of Data Science</h3>
+                    <p>September 2024 - April 2025</p>
                 </div>
                 <h4>Northeastern University</h4>
                 <ul>
-                    <li>Guided students in data cleaning, analysis, and visualization using Python (Pandas, NumPy) for coursework projects.</li>
-                    <li>Reviewed machine learning models, providing actionable feedback to enhance students’ problem-solving capabilities.</li>
-                    <li>Supported 50+ students with precise guidance, achieving only 2 regrade requests alongside 14 TAs and a professor.</li>
+                    <li>Provided constructive feedback while grading 15 assignments and 6 practicums for a class of 300+ students.</li>
+                    <li>Guided 100+ students in hypothesis testing, correlations, predictive modeling, and assessing statistical significance.</li>
+                    <li>Led a team of 15 TAs and assisted students for 10+ hours weekly in office hours, maintaining 99% grading accuracy.</li>
+                </ul>
+            </div>
+
+            <div className="experience-item">
+                <div className="role-date">
+                    <h3>Data Scientist</h3>
+                    <p>July 2022 - August 2023</p>
+                </div>
+                <h4>Nibodh Educare</h4>
+                <ul>
+                    <li>Preprocessed and wrangled student engagement and performance data using PySpark to identify dropout risks, driving 
+                    a 10% improvement in student retention – a key KPI – through targeted resource allocation and interventions.</li>
+                    <li>Developed K-Means clustering for student segmentation and Random Forest models for dropout prediction using 
+                    SageMaker, leading migration to AWS, which cut infrastructure costs by 30% and improved scalability.</li>
+                    <li>Built Tableau dashboards to visualize key trends, driving data-backed decisions on student retention strategies.</li>
+                    <li>Delivered insights to stakeholders, enhancing cross-functional collaboration and data-driven decision-making.</li>
                 </ul>
             </div>
 
             <div className="experience-item">
                 <div className="role-date">
                     <h3>Software Engineer Intern</h3>
-                    <p>May 2022 - January 2023</p>
+                    <p>January 2022 - June 2022</p>
                 </div>
                 <h4>Nibodh Educare</h4>
                 <ul>
-                    <li>Leveraged HTML, CSS, and JavaScript (MongoDB, Express, React, Node.js) to develop a web application portal, 
-                    integrating front-end and back-end components into the live code of the website, implementing OOD/OOP principles.</li>
-                    <li>Enhanced system responsiveness by 30% through AWS cloud and microservices architecture, developing RESTful 
-                    APIs, and implementing scalable fault-tolerant systems to ensure high availability and informed decision-making.</li>
-                    <li>Championed agile methodologies and leveraged Git for version control, driving efficient collaboration, project 
-                    management, and comprehensive testing with Cypress and Jest, while ensuring robust code maintenance and delivery.</li>
-                    <li>Streamlined stakeholder-developer communication, ensuring seamless deployments, managing expectations, and 
-                    securing positive user feedback through effective collaboration and problem-solving.</li>
+                    <li>Built a full-stack web portal using HTML, CSS, JavaScript, and the MERN stack, integrating front-end and back-end 
+                    with object-oriented principles and reusable components – reducing redundant code and saving development effort.</li>
+                    <li>Boosted system responsiveness by 20% via AWS, microservices, and scalable RESTful APIs, ensuring high availability.</li>
+                    <li>Drove agile development, using Git for version control and automating testing with Cypress and Jest. </li>
+                    <li>Liaised between educators and developers, turning teacher feedback into product specs that led to a user-friendly grade 
+                    tracking module and strong pilot feedback.</li>
                 </ul>
             </div>
         </section>
