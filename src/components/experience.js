@@ -20,7 +20,7 @@ const ExperienceSection = () => {
                 </ul>
             </div>
 
-            <div className="experience-item">
+            {/* <div className="experience-item">
                 <div className="role-date">
                     <h3>Data Scientist</h3>
                     <p>July 2022 - August 2023</p>
@@ -34,12 +34,12 @@ const ExperienceSection = () => {
                     <li>Built Tableau dashboards to visualize key trends, driving data-backed decisions on student retention strategies.</li>
                     <li>Delivered insights to stakeholders, enhancing cross-functional collaboration and data-driven decision-making.</li>
                 </ul>
-            </div>
+            </div> */}
 
             <div className="experience-item">
                 <div className="role-date">
                     <h3>Software Engineer Intern</h3>
-                    <p>January 2022 - June 2022</p>
+                    <p>May 2022 - January 2023</p>
                 </div>
                 <h4>Nibodh Educare</h4>
                 <ul>
