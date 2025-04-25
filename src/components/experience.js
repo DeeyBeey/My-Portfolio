@@ -14,27 +14,14 @@ const ExperienceSection = () => {
                 </div>
                 <h4>Northeastern University</h4>
                 <ul>
-                    <li>Provided constructive feedback while grading 15 assignments and 6 practicums for a class of 300+ students.</li>
-                    <li>Guided 100+ students in hypothesis testing, correlations, predictive modeling, and assessing statistical significance.</li>
-                    <li>Led a team of 15 TAs and assisted students for 10+ hours weekly in office hours, maintaining 99% grading accuracy.</li>
+                    <li>Guided 100+ students in data analysis, hypothesis testing, correlation analysis, predictive modeling, and statistical 
+                    significance assessment using Python (Pandas, NumPy) for real-world datasets.</li>
+                    <li>Provided constructive feedback on 15 assignments and 6 practicums for a class of 300+ students, emphasizing data 
+                    wrangling, feature engineering, model evaluation (accuracy, precision, recall), and data visualization techniques.</li>
+                    <li>Led a team of 15 TAs, collaborating on grading and maintaining 99% grading accuracy, while assisting students during 
+                    10+ weekly office hours by explaining complex ML concepts (Random Forest, KNN, Logistic Regression). </li>
                 </ul>
             </div>
-
-            {/* <div className="experience-item">
-                <div className="role-date">
-                    <h3>Data Scientist</h3>
-                    <p>July 2022 - August 2023</p>
-                </div>
-                <h4>Nibodh Educare</h4>
-                <ul>
-                    <li>Preprocessed and wrangled student engagement and performance data using PySpark to identify dropout risks, driving 
-                    a 10% improvement in student retention – a key KPI – through targeted resource allocation and interventions.</li>
-                    <li>Developed K-Means clustering for student segmentation and Random Forest models for dropout prediction using 
-                    SageMaker, leading migration to AWS, which cut infrastructure costs by 30% and improved scalability.</li>
-                    <li>Built Tableau dashboards to visualize key trends, driving data-backed decisions on student retention strategies.</li>
-                    <li>Delivered insights to stakeholders, enhancing cross-functional collaboration and data-driven decision-making.</li>
-                </ul>
-            </div> */}
 
             <div className="experience-item">
                 <div className="role-date">
