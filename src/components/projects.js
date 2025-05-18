@@ -7,14 +7,14 @@ const projects = [
         title: "PayMate",
         description: "Automated bill splitting with the help of Tesseract OCR and OpenAI LLM API. Leveraging the MERN Stack for an intuitive interface and saving time by eliminating the need of creating Excel sheets manually.",
         techStack: ["MERN Stack", "JavaScript", "OpenAI API", "Tesseract-OCR"],
-        githubLink: "https://github.com/DeeyBeey",
+        githubLink: "https://github.com/DeeyBeey/PayMate",
     },
 
     {
         title: "NBA Game Outcome Prediction Using Neural Networks",
         description: "Designed a PyTorch-based model to predict NBA outcomes with 65% accuracy, utilizing Recurrent and Fully Connected Networks, processing 25 years of data with SQL, and optimizing performance through hyperparameter tuning and cross-validation.",
         techStack: ["Python", "PyTorch", "SQL", "Scikit-learn", "Matplotlib"],
-        githubLink: "https://github.com/DeeyBeey",
+        githubLink: "https://github.com/noahred16/NBA-ML",
     },
 
     {
