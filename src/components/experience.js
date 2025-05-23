@@ -9,7 +9,21 @@ const ExperienceSection = () => {
 
             <div className="experience-item">
                 <div className="role-date">
-                    <h3>Lead Teaching Assistant | DS 3000: Foundations of Data Science</h3>
+                    <h3>Founder & Software Engineer</h3>
+                    <p>January 2025 - Present</p>
+                </div>
+                <h4>PayMate</h4>
+                <ul>
+                    <li>Architected a full-stack MERN web application to streamline receipt-based bill splitting, slashing manual effort from 
+                    roughly 15 minutes to under 3 by integrating Tesseract OCR, Regex parsing, and OpenAI API–powered text refinement.</li>
+                    <li>Designed a responsive, user-first interface with MongoDB-backed split history, input validation, downloadable PDF 
+                    summaries, and modular components to ensure clarity, accuracy, and long-term maintainability.</li>
+                </ul>
+            </div>
+
+            <div className="experience-item">
+                <div className="role-date">
+                    <h3>Data Scientist Teaching Assistant</h3>
                     <p>September 2024 - April 2025</p>
                 </div>
                 <h4>Northeastern University</h4>
