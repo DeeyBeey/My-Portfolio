@@ -6,6 +6,20 @@ const ExperienceSection = () => {
     return (
         <section id="experience">
               <h2>A Look at My Experience</h2>
+            
+            <div className="experience-item">
+                <div className="role-date">
+                    <h3>Machine Learning / Software Engineer</h3>
+                    <p>June 2025 - Present</p>
+                </div>
+                <h4>SolBid</h4>
+                <ul>
+                    <li>Productionized HRBot and SupportBot using GenAI (Phi-1.5, Phi-3 mini) with a custom RAG pipeline and quantization 
+                    for efficiency; integrated with Slack to automate HR query resolution, reducing founder involvement and ambiguity.</li>
+                    <li>Automated solar panel placement using Shapely, image processing, and a rule-based algorithm, eliminating manual 
+                    effort and layout time from over 90 seconds to less than 5 seconds while ensuring safety, compliance, and visual appeal.</li>
+                </ul>
+            </div>
 
             <div className="experience-item">
                 <div className="role-date">
