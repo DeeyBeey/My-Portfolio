@@ -16,15 +16,13 @@ const AboutSection = () => {
             <div className="about-content">
                 <div className="text">
                     <h2>Who is <span className="switching-text">{name}?</span></h2>
-                    <p>Originating from the vibrant city of Mumbai, I am currently pursuing
-                        my Master's in Computer Science at Northeastern University in Boston.
-                        With a deep passion for Data Science and Software Development, I thrive
-                        on the excitement of building innovative solutions from the ground up.
-                        I embrace challenges head-on and am driven by a relentless pursuit of
-                        excellence. A steadfast believer in perseverance and teamwork,
-                        I am always eager to collaborate and connect with like-minded individuals.
-                        Let's connect and create something extraordinary together!</p>
-
+                    <p>I’m a recent Computer Science graduate from Northeastern University, specializing in 
+                        Machine Learning and Software Development. With a passion for building innovative solutions 
+                        from the ground up, I enjoy tackling complex challenges, whether it’s applying machine learning to real-world 
+                        problems or engineering clean, efficient software. My approach blends perseverance, teamwork, and curiosity, 
+                        and I thrive on turning ideas into practical outcomes that make life easier. Always eager to collaborate with 
+                        like-minded professionals, I’m excited to connect and explore opportunities in data science, AI, and product-driven engineering.
+                    </p>
                     <a href="/data/Dhruv_Belai_Resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">View My Resume</a>
                     <p className="witty-line">I'm somewhat of a tailor myself, so feel free to ask for a custom-fitted resume!</p>
                 </div>

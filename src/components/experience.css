@@ -4,9 +4,13 @@ body {
 
 #experience {
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
     background-color: #f0f0f0;
-    padding-right: 50px;
+    padding-right: 30px;
+}
+
+#experience h2 {
+    padding-left: 20px;
 }
 
 .role-date {
