@@ -1,4 +1,3 @@
-import React from "react";
 import './experience.css';
 
 const ExperienceSection = () => {
@@ -14,10 +13,12 @@ const ExperienceSection = () => {
                 </div>
                 <h4>SolBid</h4>
                 <ul>
-                    <li>Productionized HRBot and SupportBot using GenAI (Phi-1.5, Phi-3 mini) with a custom RAG pipeline and quantization 
-                    for efficiency; integrated with Slack to automate HR query resolution, reducing founder involvement and ambiguity.</li>
-                    <li>Automated solar panel placement using Shapely, image processing, and a rule-based algorithm, eliminating manual 
-                    effort and layout time from over 90 seconds to less than 5 seconds while ensuring safety, compliance, and visual appeal.</li>
+                    <li>Reduced rooftop solar panel design time by 98% (5 min → few seconds) with an algorithm that automatically places 
+                    panels based on adjustable safety and aesthetic rules, replacing the need for manual layout. </li>
+                    <li>Cut HR response time and reduced founder workload by automating query handling through GenAI-powered HR 
+                    Bot and Support Bot, using a custom RAG pipeline (Phi-1.5, Phi-3 Mini) integrated with Slack. </li>
+                    <li>Drove core frontend migration from PHP to React by designing reusable components and improved architecture 
+                    for greater scalability and maintainability, while collaborating across teams to ensure a smooth transition. </li>
                 </ul>
             </div>
 
@@ -28,10 +29,10 @@ const ExperienceSection = () => {
                 </div>
                 <h4>PayMate</h4>
                 <ul>
-                    <li>Architected a full-stack MERN web application to streamline receipt-based bill splitting, slashing manual effort from 
-                    roughly 15 minutes to under 3 by integrating Tesseract OCR, Regex parsing, and OpenAI API–powered text refinement.</li>
-                    <li>Designed a responsive, user-first interface with MongoDB-backed split history, input validation, downloadable PDF 
-                    summaries, and modular components to ensure clarity, accuracy, and long-term maintainability.</li>
+                    <li>Lowered manual bill-splitting time by 80% (15min → 3min) by building a full-stack MERN web app that scans 
+                    grocery receipts with Tesseract OCR, refines messy text using the OpenAI API, and parses items with RegEx. </li>
+                    <li>Designed a simple, zero-learning-curve interface with split history, validation checks, and downloadable summaries, 
+                    incorporating real user feedback to boost accuracy and ease of use. </li>
                 </ul>
             </div>
 
@@ -42,12 +43,10 @@ const ExperienceSection = () => {
                 </div>
                 <h4>Northeastern University</h4>
                 <ul>
-                    <li>Guided 100+ students in data analysis, hypothesis testing, correlation analysis, predictive modeling, and statistical 
-                    significance assessment using Python (Pandas, NumPy) for real-world datasets.</li>
-                    <li>Provided constructive feedback on 15 assignments and 6 practicums for a class of 300+ students, emphasizing data 
-                    wrangling, feature engineering, model evaluation (accuracy, precision, recall), and data visualization techniques.</li>
-                    <li>Led a team of 15 TAs, collaborating on grading and maintaining 99% grading accuracy, while assisting students during 
-                    10+ weekly office hours by explaining complex ML concepts (Random Forest, KNN, Logistic Regression). </li>
+                    <li>Boosted student performance in a 300+ student course by mentoring 100+ students, giving tailored feedback that 
+                    improved grades; built weekly resource guides with examples and documentation to support all skill levels. </li>
+                    <li>Led and onboarded a 15-person TA team across two terms, maintaining 99% grading accuracy and ensuring on-time 
+                    grading; resolved TA issues without professor involvement, saving significant faculty time. </li>
                 </ul>
             </div>
 
@@ -58,17 +57,16 @@ const ExperienceSection = () => {
                 </div>
                 <h4>Nibodh Educare</h4>
                 <ul>
-                    <li>Built a full-stack web portal using HTML, CSS, JavaScript, and the MERN stack, integrating front-end and back-end 
-                    with object-oriented principles and reusable components – reducing redundant code and saving development effort.</li>
-                    <li>Boosted system responsiveness by 20% via AWS, microservices, and scalable RESTful APIs, ensuring high availability.</li>
-                    <li>Drove agile development, using Git for version control and automating testing with Cypress and Jest. </li>
-                    <li>Liaised between educators and developers, turning teacher feedback into product specs that led to a user-friendly grade 
-                    tracking module and strong pilot feedback.</li>
+                    <li>Built a full-stack education portal using the MongoDB, Express, React and Node (MERN) stack with scalable REST 
+                    APIs and reusable components, reducing code redundancy and enabling feature iterations. </li>
+                    <li>Enhanced system responsiveness by 20% through optimized microservices and caching on AWS for reliability. </li>
+                    <li>Strengthened QA reliability by building robust testing and data validation pipelines with Cypress and Jest, cutting 
+                    release bugs by ~30% and reducing manual checks.  </li>
+                    <li>Bridged educators and developers, translating teacher feedback into product specs that led to a user-friendly grade 
+                    tracking module praised during pilot rollout. </li>
                 </ul>
             </div>
         </section>
-
-
     );
 }
 
