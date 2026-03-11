@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Lenis from 'lenis';
 import Header from './components/header';
 import AboutSection from './components/about'
@@ -9,12 +9,15 @@ import Footer from './components/footer';
 import './App.css';
 
 function App() {
+  const lenisRef = useRef(null);
+
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.1,
       smoothWheel: true,
       smoothTouch: false,
     });
+    lenisRef.current = lenis;
 
     let frameId;
 
@@ -28,12 +31,25 @@ function App() {
     return () => {
       window.cancelAnimationFrame(frameId);
       lenis.destroy();
+      lenisRef.current = null;
     };
   }, []);
 
+  const handleNavigate = (targetId) => {
+    const targetElement = document.querySelector(targetId);
+
+    if (!targetElement || !lenisRef.current) {
+      return;
+    }
+
+    lenisRef.current.scrollTo(targetElement, {
+      offset: -24,
+    });
+  };
+
   return (
     <div className="App">
-      <Header />
+      <Header onNavigate={handleNavigate} />
       <AboutSection />
       <ExperienceSection />
       <ProjectSection />

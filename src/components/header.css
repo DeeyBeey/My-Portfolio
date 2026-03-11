@@ -35,18 +35,16 @@
     width: 100%;
     flex: 1 0 22%;
     white-space: nowrap;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .navigation-link a {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
-.navigation-link:hover {
-    background-color: rgb(105, 105, 105);
+.navigation-link:hover a {
     transform: scale(1.2);
 }
 

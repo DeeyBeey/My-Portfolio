@@ -1,8 +1,7 @@
-import React from "react";
 import { useEffect } from "react";
 import './header.css';
 
-const Header = () => {
+const Header = ({ onNavigate }) => {
 
     useEffect(() => {
         const typedTextSpan = document.getElementById('typed-text');
@@ -28,10 +27,10 @@ const Header = () => {
                 <span id="typed-text"></span>
             </div>
             <div className="navigation-links">
-                <div className="navigation-link"><a href="#about">About</a></div>
-                <div className="navigation-link"><a href="#experience">Experience</a></div>
-                <div className="navigation-link"><a href="#projects">Projects</a></div>
-                <div className="navigation-link"><a href="#footer">Contact</a></div>
+                <div className="navigation-link"><a href="#about" onClick={(event) => { event.preventDefault(); onNavigate('#about'); }}>About</a></div>
+                <div className="navigation-link"><a href="#experience" onClick={(event) => { event.preventDefault(); onNavigate('#experience'); }}>Experience</a></div>
+                <div className="navigation-link"><a href="#projects" onClick={(event) => { event.preventDefault(); onNavigate('#projects'); }}>Projects</a></div>
+                <div className="navigation-link"><a href="#footer" onClick={(event) => { event.preventDefault(); onNavigate('#footer'); }}>Contact</a></div>
             </div>
         </header>
     )
