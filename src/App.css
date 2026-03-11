@@ -1,9 +1,19 @@
 :root {
   --global-font: 'Georgia', serif;
+  --header-offset: 84px;
 }
 
 body {
   font-family: var(--global-font);
   margin: 0;
   padding: 0;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+[id] {
+  scroll-margin-top: var(--header-offset);
 }
