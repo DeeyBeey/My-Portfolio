@@ -15,6 +15,8 @@ const Header = ({ onNavigate }) => {
                 typedTextSpan.textContent += text.charAt(charIndex);
                 charIndex++;
                 setTimeout(type, 125);
+            } else {
+                typedTextSpan.classList.add('typing-complete');
             }
         }
         type();

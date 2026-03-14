@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Button from "./button";
 import './about.css';
 
 const AboutSection = () => {
@@ -16,15 +17,24 @@ const AboutSection = () => {
             <div className="about-content">
                 <div className="text">
                     <h2>Who is <span className="switching-text">{name}?</span></h2>
-                    <p>I’m a recent Computer Science graduate from Northeastern University, specializing in 
-                        Machine Learning and Software Development. With a passion for building innovative solutions 
-                        from the ground up, I enjoy tackling complex challenges, whether it’s applying machine learning to real-world 
-                        problems or engineering clean, efficient software. My approach blends perseverance, teamwork, and curiosity, 
-                        and I thrive on turning ideas into practical outcomes that make life easier. Always eager to collaborate with 
-                        like-minded professionals, I’m excited to connect and explore opportunities in data science, AI, and product-driven engineering.
+
+                    <p>I’m a builder who enjoys turning complex problems into practical systems. My work sits at the intersection of 
+                    machine learning, data, and software engineering, where thoughtful design and experimentation can transform messy 
+                    real-world challenges into reliable solutions.
                     </p>
-                    <a href="/data/Dhruv_Belai_Resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">View My Resume</a>
-                    <p className="witty-line">I'm somewhat of a tailor myself, so feel free to ask for a custom-fitted resume!</p>
+
+                    <p>
+                    I’m particularly interested in building tools that make difficult tasks easier, whether that’s automating workflows, 
+                    extracting insights from data, or creating software that simplifies how people interact with complex systems.
+                    </p>
+
+                    <p>Curiosity, persistence, and a bias toward execution guide how I approach problems. I enjoy the process of exploring ideas, 
+                    testing them in the real world, and iterating until something genuinely useful emerges.
+                    </p>
+                    
+                    <Button href="/data/Dhruv_Belai_Resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+                        View My Resume
+                    </Button>
                 </div>
                 <div className="image">
                     <img src="/data/my_picture.jpg" alt="Dhruv Belai" />

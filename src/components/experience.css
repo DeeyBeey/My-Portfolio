@@ -5,11 +5,11 @@ body {
 #experience {
     padding: 20px;
     padding-left: 30px;
-    background-color: #f0f0f0;
+    background-color: var(--color-surface-muted);
     padding-right: 30px;
 }
 
-#experience h2 {
+.section-title {
     padding-left: 20px;
 }
 
@@ -21,36 +21,71 @@ body {
 
 .experience-item {
     margin: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.experience-item h2 {
-    font-size: 2rem;
+.experience-item + .experience-item {
+    border-top: 1px solid var(--color-border);
+    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
-.experience-item h3 {
+.role-title {
     font-size: 1.5rem;
     margin: 0;
+    color: var(--color-text);
 }
 
-.experience-item h4 {
+.company-name {
     font-size: 1.2rem;
-    color: #666;
-    margin: 5px 0;
+    color: var(--color-text-muted);
+    margin: 5px 0 1.25rem;
 }
 
-.experience-item p {
+.company-link {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.company-link-icon {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    font-size: 0.95rem;
+    line-height: 1;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+}
+
+.role-period {
     font-size: 1.2rem;
-    color: #888;
+    color: var(--color-text-soft);
     margin: 0;
 }
 
-.experience-item ul {
-    list-style-type: disc;
-    margin-left: 20px;
+.entry-heading {
+    margin: 1.75rem 0 0.75rem;
+    color: var(--color-text);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0;
 }
 
-.experience-item li {
+.entry-copy p {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    color: var(--color-text);
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0 0 1.15rem;
     text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .experience-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

@@ -1,8 +1,15 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
+import Button from "./button";
 import './projects.css';
 
 const projects = [
+    {
+        title: "StockO",
+        description: "Developing a local RAG-based financial analysis assistant using Qwen models, implementing semantic chunking, embedding-based retrieval, and structured prompts to analyze financial news sentiment and evaluate LLM reliability in generating bullish/bearish stock signals.",
+        techStack: ["Python", "RAG", "LangChain", "Ollama", "Qwen", "LlamaIndex"],
+        githubLink: "https://github.com/DeeyBeey/StockO",
+    },
     {
         title: "NBA Game Outcome Prediction Using Neural Networks",
         description: "Designed a PyTorch-based model to predict NBA outcomes with 65% accuracy, utilizing Recurrent and Fully Connected Networks, processing 25 years of data with SQL, and optimizing performance through hyperparameter tuning and cross-validation.",
@@ -67,10 +74,9 @@ const ProjectSection = () => {
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                         <p><strong>Tech Stack:</strong> {project.techStack.join(', ')}</p>
-                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <FaGithub />
-                            <span>GitHub</span>
-                        </a>
+                        <Button href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub" icon={<FaGithub />}>
+                            GitHub
+                        </Button>
                     </div>
                 ))}
             </div>

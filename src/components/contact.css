@@ -3,11 +3,12 @@
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: var(--color-page);
 }
 
 #beyond-work p {
     margin: 20px;
+    color: var(--color-text);
     text-align: justify;
     text-align-last: center;
 }

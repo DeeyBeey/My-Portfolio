@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(35, 35, 35);
-    color: #fff;
-    border-radius: 0 0 3px 3px;
+    background-color: var(--color-dark-glass);
+    color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border-inverse);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     height: 60px;
     position: fixed;
     top: 0;
@@ -40,7 +43,7 @@
 .navigation-link a {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-surface);
     transition: transform 0.3s ease;
 }
 
@@ -53,6 +56,11 @@
     white-space: nowrap;
     border-right: .15em solid orange;
     animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+#typed-text.typing-complete {
+    border-right: none;
+    animation: none;
 }
 
 @keyframes typing {
@@ -73,7 +81,7 @@
     }
 
     50% {
-        border-color: #f9f9f9;
+        border-color: var(--color-surface);
     }
 }
 

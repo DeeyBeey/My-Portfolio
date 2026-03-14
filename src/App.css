@@ -1,6 +1,23 @@
 :root {
   --global-font: 'Georgia', serif;
   --header-offset: 84px;
+  --color-page: #f6f5f2;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f2f1ed;
+  --color-surface-muted: #eceae5;
+  --color-text: #111111;
+  --color-text-muted: #666666;
+  --color-text-soft: #7a7a7a;
+  --color-dark: #232323;
+  --color-dark-soft: #2f2f2f;
+  --color-dark-muted: #cfcfcf;
+  --color-dark-glass: rgba(35, 35, 35, 0.9);
+  --color-border: rgba(17, 17, 17, 0.08);
+  --color-border-strong: rgba(17, 17, 17, 0.12);
+  --color-border-inverse: rgba(255, 255, 255, 0.08);
+  --shadow-soft: 0 10px 24px rgba(0, 0, 0, 0.14);
+  --shadow-card: 0 10px 30px rgba(17, 17, 17, 0.06);
+  --shadow-card-hover: 0 16px 40px rgba(17, 17, 17, 0.1);
 }
 
 *,
@@ -15,6 +32,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: clip;
+  background-color: var(--color-page);
+  color: var(--color-text);
 }
 
 html.lenis,
